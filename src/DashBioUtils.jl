@@ -1,5 +1,8 @@
 module DashBioUtils
 
-greet() = print("Hello World!")
+using Glob, GZip
+using HTTP, StringEncodings
+using StatsBase
+include("ngl_parser.jl")
 
 end # module
