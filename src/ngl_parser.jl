@@ -1,3 +1,4 @@
+module NglParser
 #=
 This module contains functions that parse and structure data into a
 dict for use with the NGL Molecule Viewer component.
@@ -11,7 +12,7 @@ entered to return a dict to input as the `data` param of the component.
 Helper function to split `string` into 2 sub string based on `sep`
 # Example
 ```julia
-  a,b = DashBioUtils.single_split("hello.app",".")
+  a,b = DashBioUtils.NglParser.single_split("hello.app",".")
 ```
 """
 function single_split(string, sep)
@@ -29,7 +30,7 @@ get_highlights(string, sep, atom_indicator)
 Helper function to set highlights using `string`, `sep`, `atom_indicator`
 
 # Example
-a,b = DashBioUtils.get_highlights("Hello.app", ".", "a")
+a,b = DashBioUtils.NglParser.get_highlights("Hello.app", ".", "a")
 """
 function get_highlights(string, sep, atom_indicator)
   residues_list = []
@@ -109,4 +110,5 @@ function get_data(data_path, pdb_id, color; reset_view=false, loc=true)
     "resetView" => reset_view,
     "uploaded" => false,
   )
+end
 end
