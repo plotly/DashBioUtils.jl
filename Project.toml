@@ -4,6 +4,7 @@ authors = ["efmanu <manuedavakandam@gmail.com>"]
 version = "0.1.0"
 
 [deps]
+FASTX = "c2308a5c-f048-11e8-3e8a-31650f418d12"
 GZip = "92fee26a-97fe-5a0c-ad85-20a5f3185b63"
 Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"

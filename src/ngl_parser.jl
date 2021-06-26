@@ -1,4 +1,3 @@
-module NglParser
 #=
 This module contains functions that parse and structure data into a
 dict for use with the NGL Molecule Viewer component.
@@ -110,5 +109,4 @@ function get_data(data_path, pdb_id, color; reset_view=false, loc=true)
     "resetView" => reset_view,
     "uploaded" => false,
   )
-end
 end
