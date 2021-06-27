@@ -1,0 +1,14 @@
+Package: DashBioUtils
+Title: Helper functions for DashBio.jl 
+Version: 0.1.0
+Description: Set of functions to format different data to fit in DashBio.jl package.
+Depends: R (>= 3.0.2)
+Imports: 
+Suggests: 
+Authors@R: person("The", "Team", role = c("aut", "cre"), email = "dashdaq@plotly.com")
+License: MIT + file LICENSE
+URL: https://github.com/plotly/DashBioUtils.jl
+BugReports: https://github.com/plotly/DashBioUtils.jl/issues
+Encoding: UTF-8
+LazyData: true
+KeepSource: true
